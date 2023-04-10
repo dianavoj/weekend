@@ -1,0 +1,65 @@
+body,html {
+	font-family: 'Star Wars', sans-serif;
+	background: url(pxfuel.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	margin: 0 auto;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+hr {
+	opacity: 1;
+	border: none;
+  	height: 2px;
+  	background-color: #FFE81F;
+}
+h1 {
+	font-size: 5rem;
+	text-align: center;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+}
+
+.container2 {
+	display: flex;
+	margin-top: 5px;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+}
+
+img {
+	width: 400px;
+	height: 600px;
+	transition: all 1s;
+}
+
+footer {
+	color: grey;
+	font-family: Imperial;
+	font-size: 12px;
+	margin: 10px 10px 10px 10px;
+	letter-spacing: 1px;
+
+}
+
+.audio {
+	height: 30px;
+	width: 100px;
+
+}
